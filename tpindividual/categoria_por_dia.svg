@@ -4,7 +4,7 @@
    height="600"
    version="1.1"
    id="svg67"
-   sodipodi:docname="categoria_por_dia (4).svg"
+   sodipodi:docname="categoria_por_dia.svg"
    inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -15,8 +15,8 @@
     <rect
        x="314.91055"
        y="34.592445"
-       width="778.92645"
-       height="41.7495"
+       width="872.57267"
+       height="40.556657"
        id="rect59-9" />
   </defs>
   <sodipodi:namedview
@@ -29,7 +29,7 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="0.83833333"
-     inkscape:cx="502.7833"
+     inkscape:cx="503.37972"
      inkscape:cy="273.75746"
      inkscape:window-width="1366"
      inkscape:window-height="705"
@@ -885,9 +885,9 @@
   <text
      xml:space="preserve"
      id="text59-1"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.3333px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect59-9);display:inline;fill:#000000;stroke-width:0.976;stroke-linejoin:round;stroke-dasharray:0.976, 2.928"
-     transform="translate(-190.99655,-7.972391)"><tspan
-       x="331.90154"
-       y="57.704134"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.283px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect59-9);display:inline;fill:#000000;stroke-width:0.976;stroke-linejoin:round;stroke-dasharray:0.976, 2.928"
+     transform="matrix(0.95533186,0,0,1,-176.39117,-7.972391)"><tspan
+       x="393.2601"
+       y="59.167081"
        id="tspan2">¿Qué tipo de aplicaciones predominan durante la semana?</tspan></text>
 </svg>
