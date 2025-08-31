@@ -64,7 +64,7 @@
   <!-- Gráfico 1 -->
   <h2>📊 ANÁLISIS DEL MES DE AGOSTO</h2>
   <p>Evolución diaria de mi tiempo en pantalla para identificar los picos y los días con menor uso, como así también el promedio de uso durante el mes, durante días laborales y días libres.</p>
-      <div class='tableauPlaceholder' id='viz1756605113519' style='position: relative'>
+     <div class='tableauPlaceholder' id='viz1756609040378' style='position: relative'>
   <noscript>
     <a href='#'>
       <img alt='Tiempo en pantalla ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ti&#47;Tiempoenpantalla_17565862382140&#47;Tiempoenpantalla&#47;1_rss.png' style='border: none' />
@@ -88,17 +88,25 @@
   </object>
 </div>
 <script type='text/javascript'>
-  var divElement = document.getElementById('viz1756605113519');
+  var divElement = document.getElementById('viz1756609040378');
   var vizElement = divElement.getElementsByTagName('object')[0];
   if (divElement.offsetWidth > 800) {
+    vizElement.style.minWidth = '1155px';
+    vizElement.style.maxWidth = '1255px';
     vizElement.style.width = '100%';
+    vizElement.style.minHeight = '427px';
+    vizElement.style.maxHeight = '447px';
     vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
   } else if (divElement.offsetWidth > 500) {
+    vizElement.style.minWidth = '1155px';
+    vizElement.style.maxWidth = '1255px';
     vizElement.style.width = '100%';
+    vizElement.style.minHeight = '427px';
+    vizElement.style.maxHeight = '447px';
     vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
   } else {
     vizElement.style.width = '100%';
-    vizElement.style.height = '409px';
+    vizElement.style.height = '436px';
   }
   var scriptElement = document.createElement('script');
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
@@ -110,7 +118,7 @@
   <h2>🗂️ CATEGORÍAS MÁS USADAS</h2>
   <p>Uso por día de la semana: análisis para identificar qué tipo de aplicaciones son las más utilizadas.</p>
    <div style="display:flex;justify-content:center">
-        <object data="categoria_por_dia.svg.svg" type="image/svg+xml" style="max-width:1000px;width:100%;height:auto"></object>
+        <object data="categoria_por_dia.svg" type="image/svg+xml" style="max-width:1000px;width:100%;height:auto"></object>
       </div> 
   <p class="analisis"><strong></strong> La mayor parte del tiempo corresponde al uso de las redes sociales, siendo el mayor tiempo frente a la pantalla en los primeros días de la semanay descendiendo hacia el fin de semana.</p>
 
