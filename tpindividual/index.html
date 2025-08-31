@@ -30,10 +30,26 @@
     p {
       font-size: 16px;
       margin-bottom: 20px;
-      max-width: 1100px;
+      max-width: 1300px;
       margin-left: auto;
       margin-right: auto;
     }
+    .recuadro-negro {
+      background-color: #000000;  /* fondo negro */
+      width: 100%;                /* se extiende a todo el ancho */
+      padding: 40px 20px;         /* espacio arriba/abajo y a los lados */
+      box-sizing: border-box;     /* incluye padding en el ancho total */
+      text-align: center;         /* centra el contenido */
+    }
+
+    .recuadro-negro h1 {
+      font-weight: bold;
+      font-size: 2.2em;
+      margin: 0;                  /* quitar margen extra */
+      color: white;               /* texto blanco */
+      text-transform: uppercase;
+    }  
+    
     .grafico {
       margin: 20px auto;
       max-width: 900px;
@@ -58,13 +74,16 @@
 </head>
 <body>
 
-  <h1>📲 HÁBITOS DIGITALES </h1>
+
+  <div class="recuadro-negro">
+    <h1>📲 HÁBITOS DIGITALES</h1>
+  </div>
   <h2>UN ANÁLISIS VISUAL DEL USO DEL CELULAR DURANTE EL MES DE AGOSTO</h2>
   <p>Este trabajo presenta un análisis visual del tiempo en pantalla, explorando patrones de uso diario, tipo de aplicaciones, con el objetivo de comprender cómo utilizo mi celular y buscar oportunidades para optimizar mi tiempo.  </p>
   <!-- Gráfico 1 -->
   <h2>📊 ANÁLISIS DEL MES DE AGOSTO</h2>
   <p>Evolución diaria del tiempo en pantalla para identificar los picos y los días con menor uso, como así también el promedio de uso durante el mes, días laborales y días libres.</p>
-    <div class='tableauPlaceholder' id='viz1756611782969' style='position: relative'>
+ <div class='tableauPlaceholder' id='viz1756614088493' style='position: relative'>
   <noscript>
     <a href='#'>
       <img alt='Tiempo en pantalla ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ti&#47;Tiempoenpantalla_17565862382140&#47;Tiempoenpantalla&#47;1_rss.png' style='border: none' />
@@ -88,14 +107,10 @@
   </object>
 </div>
 <script type='text/javascript'>
-  var divElement = document.getElementById('viz1756611782969');
+  var divElement = document.getElementById('viz1756614088493');
   var vizElement = divElement.getElementsByTagName('object')[0];
-  vizElement.style.minWidth = '1155px';
-  vizElement.style.maxWidth = '1255px';
-  vizElement.style.width = '100%';
-  vizElement.style.minHeight = '457px';
-  vizElement.style.maxHeight = '487px';
-  vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+  vizElement.style.width = '1255px';
+  vizElement.style.height = '487px';
   var scriptElement = document.createElement('script');
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
   vizElement.parentNode.insertBefore(scriptElement, vizElement);
@@ -133,7 +148,7 @@
 </div>
      <p class="analisis"><strong></strong> Se ve claramente un patrón de uso que desciende hacia los fines de semana, siendo el pico durante los días martes.</p>
   </div>
- <div style="min-height:284px" id="datawrapper-vis-laERT">
+ <div style="min-height:257px" id="datawrapper-vis-laERT">
   <script type="text/javascript" defer src="https://datawrapper.dwcdn.net/laERT/embed.js" charset="utf-8" data-target="#datawrapper-vis-laERT"></script>
   <noscript>
     <img src="https://datawrapper.dwcdn.net/laERT/full.png" alt="¿Y el de las aplicaciones de ocio? (Line chart)" />
