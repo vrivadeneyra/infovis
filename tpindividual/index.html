@@ -1,1 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Visualización de Datos Personales</title>
 
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #ffffff;
+      color: #333;
+      line-height: 1.6;
+      text-align: center;
+    }
+    h1 {
+      font-weight: bold;
+      font-size: 2.2em;
+      margin-bottom: 20px;
+      color: #0d47a1;              /* Azul oscuro */
+      text-transform: uppercase;   /* Todo en mayúsculas */
+    }
+    h2 {
+      font-weight: bold;
+      margin-top: 50px;
+      margin-bottom: 10px;
+      color: #222;
+      font-size: 1.4em;
+    }
+    p {
+      font-size: 16px;
+      margin-bottom: 20px;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .grafico {
+      margin: 20px auto;
+      max-width: 900px;
+    }
+    iframe {
+      width: 100%;
+      height: 500px;
+      border: none;
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
+      border-radius: 8px;
+    }
+    .analisis {
+      background-color: #f9f9f9;
+      padding: 12px 18px;
+      border-left: 4px solid #4CAF50;
+      display: inline-block;
+      text-align: center;
+      margin-top: 10px;
+      font-size: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>📱 HÁBITOS DIGITALES</h1>
+  <h2>UN ANÁLISIS VISUAL DEL USO DEL CELULAR DURANTE EL MES DE AGOSTO</h2>
+  <p>Este trabajo presenta un análisis visual de mi tiempo en pantalla, explorando patrones de uso diario, tipo de aplicaciones, con el objetivo de comprender cómo utilizo mi celular y buscar oportunidades para optimizar mi tiempo.  </p>
+  <!-- Gráfico 1 -->
+  <h2>📊 ANÁLISIS DEL MES DE AGOSTO</h2>
+  <p>Evolución diaria de mi tiempo en pantalla para identificar los picos y los días con menor uso, como así también el promedio de uso durante el mes, durante días laborales y días libres.</p>
+      <div class='tableauPlaceholder' id='viz1756605113519' style='position: relative'>
+  <noscript>
+    <a href='#'>
+      <img alt='Tiempo en pantalla ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ti&#47;Tiempoenpantalla_17565862382140&#47;Tiempoenpantalla&#47;1_rss.png' style='border: none' />
+    </a>
+  </noscript>
+  <object class='tableauViz' style='display:none;'>
+    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+    <param name='embed_code_version' value='3' />
+    <param name='site_root' value='' />
+    <param name='name' value='Tiempoenpantalla_17565862382140&#47;Tiempoenpantalla' />
+    <param name='tabs' value='no' />
+    <param name='toolbar' value='yes' />
+    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ti&#47;Tiempoenpantalla_17565862382140&#47;Tiempoenpantalla&#47;1.png' />
+    <param name='animate_transition' value='yes' />
+    <param name='display_static_image' value='yes' />
+    <param name='display_spinner' value='yes' />
+    <param name='display_overlay' value='yes' />
+    <param name='display_count' value='yes' />
+    <param name='language' value='es-ES' />
+    <param name='filter' value='publish=yes' />
+  </object>
+</div>
+<script type='text/javascript'>
+  var divElement = document.getElementById('viz1756605113519');
+  var vizElement = divElement.getElementsByTagName('object')[0];
+  if (divElement.offsetWidth > 800) {
+    vizElement.style.width = '100%';
+    vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+  } else if (divElement.offsetWidth > 500) {
+    vizElement.style.width = '100%';
+    vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+  } else {
+    vizElement.style.width = '100%';
+    vizElement.style.height = '727px';
+  }
+  var scriptElement = document.createElement('script');
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+  <p class="analisis"><strong></strong> El día miércoles 5 fue el pico de uso, mientras que el día 11 fue el más bajo. A su vez, en una primera instancia es posible afirmar que el uso del celular es mayor durante los días de semana.</p>
+
+  <!-- Gráfico 2 -->
+  <h2>🗂️ CATEGORÍAS MÁS USADAS</h2>
+  <p>Uso por día de la semana: análisis para identificar qué tipo de aplicaciones son las más utilizadas.</p>
+   <div style="display:flex;justify-content:center">
+        <object data="categoria_por_dia.svg.svg" type="image/svg+xml" style="max-width:1000px;width:100%;height:auto"></object>
+      </div> 
+  <p class="analisis"><strong></strong> La mayor parte del tiempo corresponde al uso de las redes sociales, siendo el mayor tiempo frente a la pantalla en los primeros días de la semanay descendiendo hacia el fin de semana.</p>
+
+  <!-- Gráfico 3 -->
+  <h2>📈 APLICACIONES</h2>
+  <p>Análisis en el uso de aplicaciones en particular, visualizando también su comportamiento por día.</p>
+  <div class="flourish-embed flourish-hierarchy" data-src="visualisation/24901007">
+  <script src="https://public.flourish.studio/resources/embed.js"></script>
+  <noscript>
+    <img src="https://public.flourish.studio/visualisation/24901007/thumbnail" width="100%" alt="hierarchy visualization" />
+  </noscript>
+</div>
+  <p class="analisis"><strong></strong> Existe un predominio notable en el uso de WhatsApp e Instagram. Resulta interesante el cambio en el uso de aplicaciones de ocio.</p>
+
+  <!-- Gráfico 4 -->
+  <h2>📅 PATRÓN DE USO DE APLICACIONES</h2>
+  <p>Es interesante visualizar cómo va variando el uso de las redes sociales, como así también qué patrón existen en las aplicaciones de ocio.  </p>
+   <div style="min-height:504px" id="datawrapper-vis-bQ562">
+  <script type="text/javascript" defer src="https://datawrapper.dwcdn.net/bQ562/embed.js" charset="utf-8" data-target="#datawrapper-vis-bQ562"></script>
+  <noscript>
+    <img src="https://datawrapper.dwcdn.net/bQ562/full.png" alt="¿Cómo es el patrón de uso de las  redes sociales en una semana ? (Line chart)" />
+  </noscript>
+     <p class="analisis"><strong></strong>Se ve claramente un patrón de uso que desciende hacia los fines de semana, siendo el pico durante los días martes.</p>
+  </div>
+  <div style="min-height:395px" id="datawrapper-vis-laERT">
+  <script type="text/javascript" defer src="https://datawrapper.dwcdn.net/laERT/embed.js" charset="utf-8" data-target="#datawrapper-vis-laERT"></script>
+  <noscript>
+    <img src="https://datawrapper.dwcdn.net/laERT/full.png" alt="¿Y el de las aplicaciones de ocio? (Line chart)" />
+  </noscript>
+</div>
+  <p class="analisis"><strong></strong> Es interesante el comportamiento de la aplicación Flow, ya que solamente es utilizadas los días de partidos de fútbol. A su vez, las plataformas como Youtube y Disney+ tienen una curva que crecen durante los fines de semana.</p>
+
+</body>
+</html>
