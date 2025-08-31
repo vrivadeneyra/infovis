@@ -1,203 +1,229 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Hábitos Digitales</title>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hábitos Digitales</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 40px;
+        background-color: #ffffff;
+        color: #333;
+        line-height: 1.6;
+        text-align: center;
+      }
 
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 40px;
-      background-color: #ffffff;
-      color: #333;
-      line-height: 1.6;
-      text-align: center;
-    }
-    h1 {
-      font-weight: bold;
-      font-size: 2.6em;
-      margin-bottom: 20px;
-      color: #000000;              /* Negro */
-      text-transform: uppercase;   /* Todo en mayúsculas */
-    }
-    h2 {
-      font-weight: bold;
-      margin-top: 50px;
-      margin-bottom: 10px;
-      color: #000000;
-      font-size: 1.4em;
-    }
-    p {
-      font-size: 18px;
-      margin-bottom: 20px;
-      max-width: 1300px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .recuadro-negro {
-      background-color: #000000;  /* fondo negro */
-      width: 100%;                /* se extiende a todo el ancho */
-      padding: 40px 20px;         /* espacio arriba/abajo y a los lados */
-      box-sizing: border-box;     /* incluye padding en el ancho total */
-      text-align: center;         /* centra el contenido */
-    }
+      h1 {
+        font-weight: bold;
+        font-size: 2.6em;
+        margin-bottom: 20px;
+        color: #000000;
+        /* Negro */
+        text-transform: uppercase;
+        /* Todo en mayúsculas */
+      }
 
-    .recuadro-negro h1 {
-      font-weight: bold;
-      font-size: 2.6em;
-      margin: 0;                  /* quitar margen extra */
-      color: white;               /* texto blanco */
-      text-transform: uppercase;
-    }  
+      h2 {
+        font-weight: bold;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        color: #000000;
+        font-size: 1.4em;
+      }
+
+      p {
+        font-size: 18px;
+        margin-bottom: 20px;
+        max-width: 1300px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .recuadro-negro {
+        background-color: #000000;
+        /* fondo negro */
+        width: 100%;
+        /* se extiende a todo el ancho */
+        padding: 40px 20px;
+        /* espacio arriba/abajo y a los lados */
+        box-sizing: border-box;
+        /* incluye padding en el ancho total */
+        text-align: center;
+        /* centra el contenido */
+      }
+
+      .recuadro-negro h1 {
+        font-weight: bold;
+        font-size: 2.6em;
+        margin: 0;
+        /* quitar margen extra */
+        color: white;
+        /* texto blanco */
+        text-transform: uppercase;
+      }
 
       .recuadro-gris {
-      background-color: #1d2022;  /* fondo gris */
-      width: 100%;                /* se extiende a todo el ancho */
-      padding: 20px 20px;         /* espacio arriba/abajo y a los lados */
-      box-sizing: border-box;     /* incluye padding en el ancho total */
-      text-align: center;         /* centra el contenido */
-    }
+        background-color: #1d2022;
+        /* fondo gris */
+        width: 100%;
+        /* se extiende a todo el ancho */
+        padding: 20px 20px;
+        /* espacio arriba/abajo y a los lados */
+        box-sizing: border-box;
+        /* incluye padding en el ancho total */
+        text-align: center;
+        /* centra el contenido */
+      }
 
-    .recuadro-gris h2 {
-      font-weight: bold;
-      font-size: 1.6em;
-      margin: 0;                  /* quitar margen extra */
-      color: white;               /* texto blanco */
-      text-transform: uppercase;
-    }
+      .recuadro-gris h2 {
+        font-weight: bold;
+        font-size: 1.6em;
+        margin: 0;
+        /* quitar margen extra */
+        color: white;
+        /* texto blanco */
+        text-transform: uppercase;
+      }
 
-  .titulo-recuadro {
-  background-color: #64686b;
-  width: 100%;
-  padding: 10px 0;
-  text-align: center;
-  }
+      .titulo-recuadro {
+        background-color: #64686b;
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+      }
 
-  .titulo-recuadro h2 {
-  font-weight: bold;
-  font-size: 1.4em;
-  margin: 0;                  /* quitar margen extra */
-  color: white;               /* texto blanco */
-  text-transform: uppercase;
-    }
+      .titulo-recuadro h2 {
+        font-weight: bold;
+        font-size: 1.4em;
+        margin: 0;
+        /* quitar margen extra */
+        color: white;
+        /* texto blanco */
+        text-transform: uppercase;
+      }
 
-    
-    .grafico {
-      margin: 20px auto;
-      max-width: 900px;
-    }
-    iframe {
-      width: 100%;
-      height: 500px;
-      border: none;
-      box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
-      border-radius: 8px;
-    }
-    .analisis {
-      background-color: #f9f9f9;
-      padding: 12px 18px;
-      border-left: 4px solid #000000;
-      display: inline-block;
-      text-align: center;
-      margin-top: 10px;
-      font-size: 15px;
-    }
-  </style>
-</head>
-<body>
+      .grafico {
+        margin: 20px auto;
+        max-width: 900px;
+      }
 
+      iframe {
+        width: 100%;
+        height: 500px;
+        border: none;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+        border-radius: 8px;
+      }
 
-  <div class="recuadro-negro">
-    <h1>📲 HÁBITOS DIGITALES</h1>
-  </div>
-  <div class="recuadro-gris">
-    <h2>UN ANÁLISIS VISUAL DEL USO DEL CELULAR DURANTE EL MES DE AGOSTO</h2>
-  </div>
-  <p>Este trabajo propone un análisis visual de mi tiempo en pantalla. A través de distintas visualizaciones exploro los patrones de uso diario y el tipo de aplicaciones que más utilizo, con el objetivo de comprender mejor mis hábitos digitales e identificar oportunidades para optimizar el uso de mi celular.  </p>
-  <!-- Gráfico 1 -->
-  <div class="titulo-recuadro">
-    <h2>📊 ANÁLISIS POR DÍA</h2>
-  </div>
-  <p>Evolución diaria del tiempo en pantalla, mostrando los picos y los días de menor uso. También se incluyen el promedio general, el promedio en días laborales y en días libres, para comparar cómo varían mis hábitos según el contexto.</p>
-<div class='tableauPlaceholder' id='viz1756616953522' style='position: relative'>
-  <noscript>
-    <a href='#'>
-      <img alt='Tiempo en pantalla ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ti&#47;Tiempoenpantalla_17565862382140&#47;Tiempoenpantalla&#47;1_rss.png' style='border: none' />
-    </a>
-  </noscript>
-  <object class='tableauViz' style='display:none;'>
-    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-    <param name='embed_code_version' value='3' />
-    <param name='site_root' value='' />
-    <param name='name' value='Tiempoenpantalla_17565862382140&#47;Tiempoenpantalla' />
-    <param name='tabs' value='no' />
-    <param name='toolbar' value='yes' />
-    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ti&#47;Tiempoenpantalla_17565862382140&#47;Tiempoenpantalla&#47;1.png' />
-    <param name='animate_transition' value='yes' />
-    <param name='display_static_image' value='yes' />
-    <param name='display_spinner' value='yes' />
-    <param name='display_overlay' value='yes' />
-    <param name='display_count' value='yes' />
-    <param name='language' value='es-ES' />
-    <param name='filter' value='publish=yes' />
-  </object>
-</div>
-<script type='text/javascript'>
-  var divElement = document.getElementById('viz1756616953522');
-  var vizElement = divElement.getElementsByTagName('object')[0];
-  vizElement.style.width = '1255px';
-  vizElement.style.height = '487px';
-  var scriptElement = document.createElement('script');
-  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-  vizElement.parentNode.insertBefore(scriptElement, vizElement);
-</script>
-  <p class="analisis"><strong></strong> El miércoles 5 se registró el mayor tiempo de uso, mientras que el día 16 fue el más bajo. En general, se observa una mayor utilización del celular durante los días de semana en comparación con los fines de semana.</p>
-
-  <!-- Gráfico 2 -->
-  <div class="titulo-recuadro">
-    <h2>🗂️ CATEGORÍAS MÁS USADAS</h2>
-  </div>
-  <p>Promedio de uso por día de la semana, mostrando a qué categorías pertenecen las aplicaciones más utilizadas.</p>
-   <div style="display:flex;justify-content:center">
-        <object data="categoria_por_dia.svg" type="image/svg+xml" style="max-width:1000px;width:100%;height:auto"></object>
-      </div> 
-  <p class="analisis"><strong></strong> La mayor parte del tiempo en pantalla se destina a aplicaciones de redes sociales. En contraste, las apps de viajes y de productividad y finanzas presentan un uso reducido. El tiempo en pantalla alcanza su punto máximo al inicio de la semana y luego desciende progresivamente hacia el fin de semana, comenzando a aumentar nuevamente en el domingo.</p>
-
-  <!-- Gráfico 3 -->
-  <div class="titulo-recuadro">
-    <h2>📱 APLICACIONES</h2>
-  </div>
-  <p>Análisis de las aplicaciones más utilizadas dentro de cada categoría, mostrando además el comportamiento por día.</p>
- <div class="flourish-embed flourish-hierarchy" data-src="visualisation/24901007">
-  <script src="https://public.flourish.studio/resources/embed.js"></script>
-  <noscript>
-    <img src="https://public.flourish.studio/visualisation/24901007/thumbnail" width="100%" alt="hierarchy visualization" />
-  </noscript>
-</div>
-  <p class="analisis"><strong></strong> Se observa un marcado predominio en el uso de WhatsApp e Instagram. Además, al analizar la evolución a lo largo de los días, resulta especialmente interesante cómo varía el uso de las aplicaciones de ocio.</p>
-
-  <!-- Gráfico 4 -->
-  <div class="titulo-recuadro">
-    <h2>📈 PATRÓN DE USO DE APLICACIONES</h2>
-  </div>
-  <p>Visualización que permite observar la evolución de las aplicaciones correspondientes a la categoría más utilizada a lo largo de la semana, como así también analizar los patrones de uso de las aplicaciones de ocio. </p>
-  </div>
-  <div style="min-height:294px" id="datawrapper-vis-bQ562">
-  <script type="text/javascript" defer src="https://datawrapper.dwcdn.net/bQ562/embed.js" charset="utf-8" data-target="#datawrapper-vis-bQ562"></script>
-  <noscript>
-    <img src="https://datawrapper.dwcdn.net/bQ562/full.png" alt="¿Cómo es el patrón de uso de las  redes sociales en una semana ? (Line chart)" />
-  </noscript>
-</div>
-     <p class="analisis"><strong></strong> Se observa claramente al martes como día de mayor uso, mientras que se destaca una gran disminución en el uso de WhatsApp hacia los fines de semana.</p>
-  </div>
- <div style="min-height:257px" id="datawrapper-vis-laERT">
-  <script type="text/javascript" defer src="https://datawrapper.dwcdn.net/laERT/embed.js" charset="utf-8" data-target="#datawrapper-vis-laERT"></script>
-  <noscript>
-    <img src="https://datawrapper.dwcdn.net/laERT/full.png" alt="¿Y el de las aplicaciones de ocio? (Line chart)" />
-  </noscript>
-</div>
-  <p class="analisis"><strong></strong> Una de las particularidades es el comportamiento de la aplicación Flow, ya que solamente es utilizada los días de semana en los que hay partidos de fútbol. A su vez, el uso de las plataformas como Youtube y Disney+ tiende a aumentar durante los fines de semana.</p>
-<p>El análisis de mis hábitos de uso del celular durante agosto revela que los días de semana, especialmente lunes y martes, concentran la mayor parte del tiempo frente a la pantalla. Las redes sociales predominan entre las aplicaciones más utilizadas, lo que indica un área de consumo que podría optimizarse o reducirse para mejorar la gestión del tiempo y promover hábitos digitales más equilibrados. </p>
-  
-</body>
+      .analisis {
+        background-color: #f9f9f9;
+        padding: 12px 18px;
+        border-left: 4px solid #000000;
+        display: inline-block;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="recuadro-negro">
+      <h1>📲 HÁBITOS DIGITALES</h1>
+    </div>
+    <div class="recuadro-gris">
+      <h2>UN ANÁLISIS VISUAL DEL USO DEL CELULAR DURANTE EL MES DE AGOSTO</h2>
+    </div>
+    <p>Este trabajo propone un análisis visual de mi tiempo en pantalla. A través de distintas visualizaciones exploro los patrones de uso diario y el tipo de aplicaciones que más utilizo, con el objetivo de comprender mejor mis hábitos digitales e identificar oportunidades para optimizar el uso de mi celular. </p>
+    <!-- Gráfico 1 -->
+    <div class="titulo-recuadro">
+      <h2>📊 ANÁLISIS POR DÍA</h2>
+    </div>
+    <p>Evolución diaria del tiempo en pantalla, mostrando los picos y los días de menor uso. También se incluyen el promedio general, el promedio en días laborales y en días libres, para comparar cómo varían mis hábitos según el contexto.</p>
+    <div class='tableauPlaceholder' id='viz1756616953522' style='position: relative'>
+      <noscript>
+        <a href='#'>
+          <img alt='Tiempo en pantalla ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ti&#47;Tiempoenpantalla_17565862382140&#47;Tiempoenpantalla&#47;1_rss.png' style='border: none' />
+        </a>
+      </noscript>
+      <object class='tableauViz' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='embed_code_version' value='3' />
+        <param name='site_root' value='' />
+        <param name='name' value='Tiempoenpantalla_17565862382140&#47;Tiempoenpantalla' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ti&#47;Tiempoenpantalla_17565862382140&#47;Tiempoenpantalla&#47;1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='language' value='es-ES' />
+        <param name='filter' value='publish=yes' />
+      </object>
+    </div>
+    <script type='text/javascript'>
+      var divElement = document.getElementById('viz1756616953522');
+      var vizElement = divElement.getElementsByTagName('object')[0];
+      vizElement.style.width = '1255px';
+      vizElement.style.height = '487px';
+      var scriptElement = document.createElement('script');
+      scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+    <p class="analisis">
+      <strong></strong> El miércoles 5 se registró el mayor tiempo de uso, mientras que el día 16 fue el más bajo. En general, se observa una mayor utilización del celular durante los días de semana en comparación con los fines de semana.
+    </p>
+    <!-- Gráfico 2 -->
+    <div class="titulo-recuadro">
+      <h2>🗂️ CATEGORÍAS MÁS USADAS</h2>
+    </div>
+    <p>Promedio de uso por día de la semana, mostrando a qué categorías pertenecen las aplicaciones más utilizadas.</p>
+    <div style="display:flex;justify-content:center">
+      <object data="categoria_por_dia.svg" type="image/svg+xml" style="max-width:1000px;width:100%;height:auto"></object>
+    </div>
+    <p class="analisis">
+      <strong></strong> La mayor parte del tiempo en pantalla se destina a aplicaciones de redes sociales. En contraste, las apps de viajes y de productividad y finanzas presentan un uso reducido. El tiempo en pantalla alcanza su punto máximo al inicio de la semana y luego desciende progresivamente hacia el fin de semana, comenzando a aumentar nuevamente en el domingo.
+    </p>
+    <!-- Gráfico 3 -->
+    <div class="titulo-recuadro">
+      <h2>📱 APLICACIONES</h2>
+    </div>
+    <p>Análisis de las aplicaciones más utilizadas dentro de cada categoría, mostrando además el comportamiento por día.</p>
+    <div class="flourish-embed flourish-hierarchy" data-src="visualisation/24901007">
+      <script src="https://public.flourish.studio/resources/embed.js"></script>
+      <noscript>
+        <img src="https://public.flourish.studio/visualisation/24901007/thumbnail" width="100%" alt="hierarchy visualization" />
+      </noscript>
+    </div>
+    <p class="analisis">
+      <strong></strong> Se observa un marcado predominio en el uso de WhatsApp e Instagram. Además, al analizar la evolución a lo largo de los días, resulta especialmente interesante cómo varía el uso de las aplicaciones de ocio.
+    </p>
+    <!-- Gráfico 4 -->
+    <div class="titulo-recuadro">
+      <h2>📈 PATRÓN DE USO DE APLICACIONES</h2>
+    </div>
+    <p>Visualización que permite observar la evolución de las aplicaciones correspondientes a la categoría más utilizada a lo largo de la semana, como así también analizar los patrones de uso de las aplicaciones de ocio. </p>
+    </div>
+    <div style="min-height:294px" id="datawrapper-vis-bQ562">
+      <script type="text/javascript" defer src="https://datawrapper.dwcdn.net/bQ562/embed.js" charset="utf-8" data-target="#datawrapper-vis-bQ562"></script>
+      <noscript>
+        <img src="https://datawrapper.dwcdn.net/bQ562/full.png" alt="¿Cómo es el patrón de uso de las  redes sociales en una semana ? (Line chart)" />
+      </noscript>
+    </div>
+    <p class="analisis">
+      <strong></strong> Se observa claramente al martes como día de mayor uso, mientras que se destaca una gran disminución en el uso de WhatsApp hacia los fines de semana.
+    </p>
+    </div>
+    <div style="min-height:257px" id="datawrapper-vis-laERT">
+      <script type="text/javascript" defer src="https://datawrapper.dwcdn.net/laERT/embed.js" charset="utf-8" data-target="#datawrapper-vis-laERT"></script>
+      <noscript>
+        <img src="https://datawrapper.dwcdn.net/laERT/full.png" alt="¿Y el de las aplicaciones de ocio? (Line chart)" />
+      </noscript>
+    </div>
+    <p class="analisis">
+      <strong></strong> Una de las particularidades es el comportamiento de la aplicación Flow, ya que solamente es utilizada los días de semana en los que hay partidos de fútbol. A su vez, el uso de las plataformas como Youtube y Disney+ tiende a aumentar durante los fines de semana.
+    </p>
+    <p>El análisis de mis hábitos de uso del celular durante agosto revela que los días de semana, especialmente lunes y martes, concentran la mayor parte del tiempo frente a la pantalla. Las redes sociales predominan entre las aplicaciones más utilizadas, lo que indica un área de consumo que podría optimizarse o reducirse para mejorar la gestión del tiempo y promover hábitos digitales más equilibrados. </p>
+  </body>undefined
 </html>
