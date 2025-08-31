@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1005"
+   height="600"
+   version="1.1"
+   id="svg67"
+   sodipodi:docname="categoria_por_dia (4).svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs67">
+    <rect
+       x="314.91055"
+       y="34.592445"
+       width="778.92645"
+       height="41.7495"
+       id="rect59-9" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview67"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.83833333"
+     inkscape:cx="502.7833"
+     inkscape:cy="273.75746"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg67" />
+  <rect
+     width="1005"
+     height="600"
+     x="-7.1570578"
+     y="-5.9642148"
+     fill="#ffffff"
+     id="background" />
+  <g
+     id="viz"
+     transform="translate(92)">
+    <g
+       id="g59">
+      <g
+         transform="translate(50,100)"
+         id="g58">
+        <g
+           id="Redes Sociales"
+           fill="#2ca02c">
+          <rect
+             x="55.555557"
+             y="126.86667"
+             width="43.650795"
+             height="313.13333"
+             id="rect1" />
+          <rect
+             x="154.7619"
+             y="61.599998"
+             width="43.650795"
+             height="378.39999"
+             id="rect2" />
+          <rect
+             x="253.96825"
+             y="171.60001"
+             width="43.650795"
+             height="268.39999"
+             id="rect3" />
+          <rect
+             x="353.17459"
+             y="163.16667"
+             width="43.650795"
+             height="276.83334"
+             id="rect4" />
+          <rect
+             x="452.38095"
+             y="214.72"
+             width="43.650795"
+             height="225.28"
+             id="rect5" />
+          <rect
+             x="551.58728"
+             y="249.62666"
+             width="43.650795"
+             height="190.37334"
+             id="rect6" />
+          <rect
+             x="650.79364"
+             y="221.46666"
+             width="43.650795"
+             height="218.53334"
+             id="rect7" />
+        </g>
+        <g
+           id="Utilidades"
+           fill="#d62728">
+          <rect
+             x="55.555557"
+             y="75.533333"
+             width="43.650795"
+             height="51.333332"
+             id="rect8" />
+          <rect
+             x="154.7619"
+             y="28.966667"
+             width="43.650795"
+             height="32.633335"
+             id="rect9" />
+          <rect
+             x="253.96825"
+             y="154.73334"
+             width="43.650795"
+             height="16.866667"
+             id="rect10" />
+          <rect
+             x="353.17459"
+             y="140.06667"
+             width="43.650795"
+             height="23.1"
+             id="rect11" />
+          <rect
+             x="452.38095"
+             y="175.12"
+             width="43.650795"
+             height="39.599998"
+             id="rect12" />
+          <rect
+             x="551.58728"
+             y="236.72"
+             width="43.650795"
+             height="12.906667"
+             id="rect13" />
+          <rect
+             x="650.79364"
+             y="177.75999"
+             width="43.650795"
+             height="43.706665"
+             id="rect14" />
+        </g>
+        <g
+           id="Ocio"
+           fill="#1f77b4">
+          <rect
+             x="55.555557"
+             y="35.933334"
+             width="43.650795"
+             height="39.599998"
+             id="rect15" />
+          <rect
+             x="154.7619"
+             y="26.766666"
+             width="43.650795"
+             height="2.2"
+             id="rect16" />
+          <rect
+             x="253.96825"
+             y="111.83334"
+             width="43.650795"
+             height="42.900002"
+             id="rect17" />
+          <rect
+             x="353.17459"
+             y="138.23334"
+             width="43.650795"
+             height="1.8333334"
+             id="rect18" />
+          <rect
+             x="452.38095"
+             y="169.84"
+             width="43.650795"
+             height="5.2800002"
+             id="rect19" />
+          <rect
+             x="551.58728"
+             y="197.12"
+             width="43.650795"
+             height="39.599998"
+             id="rect20" />
+          <rect
+             x="650.79364"
+             y="128.77333"
+             width="43.650795"
+             height="48.986668"
+             id="rect21" />
+        </g>
+        <g
+           id="Viajes"
+           fill="#9467bd">
+          <rect
+             x="55.555557"
+             y="23.833334"
+             width="43.650795"
+             height="12.1"
+             id="rect22" />
+          <rect
+             x="154.7619"
+             y="13.933333"
+             width="43.650795"
+             height="12.833333"
+             id="rect23" />
+          <rect
+             x="253.96825"
+             y="85.066666"
+             width="43.650795"
+             height="26.766666"
+             id="rect24" />
+          <rect
+             x="353.17459"
+             y="130.53334"
+             width="43.650795"
+             height="7.6999998"
+             id="rect25" />
+          <rect
+             x="452.38095"
+             y="158.69333"
+             width="43.650795"
+             height="11.146667"
+             id="rect26" />
+          <rect
+             x="551.58728"
+             y="195.06667"
+             width="43.650795"
+             height="2.0533333"
+             id="rect27" />
+          <rect
+             x="650.79364"
+             y="127.89333"
+             width="43.650795"
+             height="0.88"
+             id="rect28" />
+        </g>
+        <g
+           id="Productividad y finanzas"
+           fill="#ff7f0e">
+          <rect
+             x="55.555557"
+             y="16.133333"
+             width="43.650795"
+             height="7.6999998"
+             id="rect29" />
+          <rect
+             x="154.7619"
+             y="5.1333332"
+             width="43.650795"
+             height="8.8000002"
+             id="rect30" />
+          <rect
+             x="253.96825"
+             y="82.866669"
+             width="43.650795"
+             height="2.2"
+             id="rect31" />
+          <rect
+             x="353.17459"
+             y="116.96667"
+             width="43.650795"
+             height="13.566667"
+             id="rect32" />
+          <rect
+             x="452.38095"
+             y="148.72"
+             width="43.650795"
+             height="9.9733334"
+             id="rect33" />
+          <rect
+             x="551.58728"
+             y="185.67999"
+             width="43.650795"
+             height="9.3866663"
+             id="rect34" />
+          <rect
+             x="650.79364"
+             y="124.37334"
+             width="43.650795"
+             height="3.52"
+             id="rect35" />
+        </g>
+        <g
+           id="xAxis"
+           transform="translate(0,440)"
+           fill="none"
+           font-size="10px"
+           font-family="sans-serif"
+           text-anchor="middle">
+          <path
+             class="domain"
+             stroke="currentColor"
+             d="m 0.5,0.5 h 750"
+             id="path35" />
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(77.380952)"
+             id="g35">
+            <line
+               stroke="currentColor"
+               y2="6"
+               id="line35"
+               x1="0"
+               y1="0"
+               x2="0" />
+            <text
+               fill="currentColor"
+               y="9"
+               dy="0.70999998em"
+               id="text35"
+               style="-inkscape-font-specification:'sans-serif, Normal';font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Lunes</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(176.5873)"
+             id="g36">
+            <line
+               stroke="currentColor"
+               y2="6"
+               id="line36"
+               x1="0"
+               y1="0"
+               x2="0" />
+            <text
+               fill="currentColor"
+               y="9"
+               dy="0.70999998em"
+               id="text36"
+               style="-inkscape-font-specification:'sans-serif, Normal';font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Martes</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(275.79365)"
+             id="g37">
+            <line
+               stroke="currentColor"
+               y2="6"
+               id="line37"
+               x1="0"
+               y1="0"
+               x2="0" />
+            <text
+               fill="currentColor"
+               y="9"
+               dy="0.70999998em"
+               id="text37"
+               style="-inkscape-font-specification:'sans-serif, Normal';font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Miércoles</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(375)"
+             id="g38">
+            <line
+               stroke="currentColor"
+               y2="6"
+               id="line38"
+               x1="0"
+               y1="0"
+               x2="0" />
+            <text
+               fill="currentColor"
+               y="9"
+               dy="0.70999998em"
+               id="text38"
+               style="-inkscape-font-specification:'sans-serif, Normal';font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Jueves</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(474.20635)"
+             id="g39">
+            <line
+               stroke="currentColor"
+               y2="6"
+               id="line39"
+               x1="0"
+               y1="0"
+               x2="0" />
+            <text
+               fill="currentColor"
+               y="9"
+               dy="0.70999998em"
+               id="text39"
+               style="-inkscape-font-specification:'sans-serif, Normal';font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Viernes</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(573.4127)"
+             id="g40">
+            <line
+               stroke="currentColor"
+               y2="6"
+               id="line40"
+               x1="0"
+               y1="0"
+               x2="0" />
+            <text
+               fill="currentColor"
+               y="9"
+               dy="0.70999998em"
+               id="text40"
+               style="-inkscape-font-specification:'sans-serif, Normal';font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Sábado</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(672.61905)"
+             id="g41">
+            <line
+               stroke="currentColor"
+               y2="6"
+               id="line41"
+               x1="0"
+               y1="0"
+               x2="0" />
+            <text
+               fill="currentColor"
+               y="9"
+               dy="0.70999998em"
+               id="text41"
+               style="-inkscape-font-specification:'sans-serif, Normal';font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Domingo</text>
+          </g>
+        </g>
+        <g
+           id="yAxis"
+           fill="none"
+           font-size="10px"
+           font-family="sans-serif"
+           text-anchor="end">
+          <path
+             class="domain"
+             stroke="currentColor"
+             d="M 0.5,440.5 V 0.5"
+             id="path41" />
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,440.5)"
+             id="g42">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line42"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text42">0</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,411.16667)"
+             id="g43">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line43"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text43">20</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,381.83333)"
+             id="g44">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line44"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text44">40</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,352.5)"
+             id="g45">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line45"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text45">60</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,323.16667)"
+             id="g46">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line46"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text46">80</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,293.83333)"
+             id="g47">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line47"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text47">100</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,264.5)"
+             id="g48">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line48"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text48">120</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,235.16667)"
+             id="g49">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line49"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text49">140</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,205.83333)"
+             id="g50">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line50"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text50">160</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,176.5)"
+             id="g51">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line51"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text51">180</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,147.16667)"
+             id="g52">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line52"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text52">200</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,117.83333)"
+             id="g53">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line53"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text53">220</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,88.5)"
+             id="g54">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line54"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text54">240</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,59.166667)"
+             id="g55">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line55"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text55">260</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,29.833333)"
+             id="g56">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line56"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text56">280</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,0.5)"
+             id="g57">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line57"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text57">300</text>
+          </g>
+        </g>
+      </g>
+      <text
+         x="4"
+         y="4"
+         style="font-weight:bold;font-size:12px;font-family:Arial, sans-serif;dominant-baseline:hanging;fill:#000000"
+         id="text59" />
+    </g>
+  </g>
+  <g
+     id="legend"
+     transform="translate(821,66)">
+    <g
+       transform="translate(5)"
+       id="g67">
+      <g
+         class="legendColor"
+         id="g66">
+        <g
+           class="legendCells"
+           transform="translate(0,16)"
+           id="g65">
+          <g
+             class="cell"
+             id="g60">
+            <rect
+               class="swatch"
+               height="15"
+               width="15"
+               style="fill:#1f77b4"
+               id="rect59"
+               x="0"
+               y="0" />
+            <text
+               class="label"
+               transform="translate(20,12.5)"
+               font-family="Arial, sans-serif"
+               font-size="10px"
+               id="text60"
+               style="-inkscape-font-specification:'Arial, sans-serif, Normal';font-family:Arial, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+                 x="0"
+                 dy="0em"
+                 id="tspan59"
+                 style="-inkscape-font-specification:'Arial, sans-serif, Normal';font-family:Arial, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Ocio</tspan></text>
+          </g>
+          <g
+             class="cell"
+             transform="translate(0,21)"
+             id="g61">
+            <rect
+               class="swatch"
+               height="15"
+               width="15"
+               style="fill:#ff7f0e"
+               id="rect60"
+               x="0"
+               y="0" />
+            <text
+               class="label"
+               transform="translate(20,12.5)"
+               font-family="Arial, sans-serif"
+               font-size="10px"
+               id="text61"
+               style="-inkscape-font-specification:'Arial, sans-serif, Normal';font-family:Arial, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+                 x="0"
+                 dy="0em"
+                 id="tspan60"
+                 style="-inkscape-font-specification:'Arial, sans-serif, Normal';font-family:Arial, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Productividad y finanzas</tspan></text>
+          </g>
+          <g
+             class="cell"
+             transform="translate(0,42)"
+             id="g62">
+            <rect
+               class="swatch"
+               height="15"
+               width="15"
+               style="fill:#2ca02c"
+               id="rect61"
+               x="0"
+               y="0" />
+            <text
+               class="label"
+               transform="translate(20,12.5)"
+               font-family="Arial, sans-serif"
+               font-size="10px"
+               id="text62"
+               style="-inkscape-font-specification:'Arial, sans-serif, Normal';font-family:Arial, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+                 x="0"
+                 dy="0em"
+                 id="tspan61"
+                 style="-inkscape-font-specification:'Arial, sans-serif, Normal';font-family:Arial, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Redes Sociales</tspan></text>
+          </g>
+          <g
+             class="cell"
+             transform="translate(0,63)"
+             id="g63">
+            <rect
+               class="swatch"
+               height="15"
+               width="15"
+               style="fill:#d62728"
+               id="rect62"
+               x="0"
+               y="0" />
+            <text
+               class="label"
+               transform="translate(20,12.5)"
+               font-family="Arial, sans-serif"
+               font-size="10px"
+               id="text63"
+               style="-inkscape-font-specification:'Arial, sans-serif, Normal';font-family:Arial, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+                 x="0"
+                 dy="0em"
+                 id="tspan62"
+                 style="-inkscape-font-specification:'Arial, sans-serif, Normal';font-family:Arial, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Utilidades</tspan></text>
+          </g>
+          <g
+             class="cell"
+             transform="translate(0,84)"
+             id="g64">
+            <rect
+               class="swatch"
+               height="15"
+               width="15"
+               style="fill:#9467bd"
+               id="rect63"
+               x="0"
+               y="0" />
+            <text
+               class="label"
+               transform="translate(20,12.5)"
+               font-family="Arial, sans-serif"
+               font-size="10px"
+               id="text64"
+               style="-inkscape-font-specification:'Arial, sans-serif, Normal';font-family:Arial, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+                 x="0"
+                 dy="0em"
+                 id="tspan63"
+                 style="-inkscape-font-specification:'Arial, sans-serif, Normal';font-family:Arial, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Viajes</tspan></text>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <text
+     y="90.846687"
+     x="166.14062"
+     text-anchor="end"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:Arial, sans-serif;-inkscape-font-specification:'Arial, sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:end;fill:#7b7b7b"
+     id="text50-0"><tspan
+       sodipodi:role="line"
+       id="tspan59-6"
+       x="166.14062"
+       y="90.846687">Minutos</tspan></text>
+  <text
+     xml:space="preserve"
+     id="text59-1"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.3333px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect59-9);display:inline;fill:#000000;stroke-width:0.976;stroke-linejoin:round;stroke-dasharray:0.976, 2.928"
+     transform="translate(-190.99655,-7.972391)"><tspan
+       x="331.90154"
+       y="57.704134"
+       id="tspan2">¿Qué tipo de aplicaciones predominan durante la semana?</tspan></text>
+</svg>
